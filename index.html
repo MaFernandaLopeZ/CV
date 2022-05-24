@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Form CV</title>
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="information-peronal">
+                <h2>INFORMACION PERSONAL</h2>
+                <label for="nombre apellidos" class="form-label">Nombre Completo</label>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre(s)" name="nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellidos" name="apellidos">
+                    </div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="profesion" class="form-label">Profesion</label>
+                    <input type="text" class="form-control" id="profesion" name="profesion">
+                </div>
+                <div class="mb-3">
+                    <label for="residencia" class="form-label">Lugar de residencia</label>
+                    <input type="text" class="form-control" id="residencia" name="residencia">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com" name="email">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="tel" class="form-label">Celular</label>
+                    <input type="text" class="form-control" id="tel" name="tel" maxlength="10">
+                </div>
+            </div>
+
+            <div class="information-social">
+                <h2>REDES SOCIALES</h2>
+                <label for="linkedin" class="form-label">Linkedin</label>
+                <div class="input-group mb-3" id="linkedin">
+                    <span class="input-group-text">Link</span>
+                    <input type="text" class="form-control" placeholder="https://example.com/users/"
+                        aria-label="link-linkedin">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Usuario" aria-label="username-linkedin">
+                </div>
+
+                <label for="instagram" class="form-label">Instagram</label>
+                <div class="input-group mb-3" id="instagram">
+                    <span class="input-group-text">Link</span>
+                    <input type="text" class="form-control" placeholder="https://example.com/users/"
+                        aria-label="link-instagram">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Usuario" aria-label="username-instagram">
+                </div>
+
+                <label for="facebook" class="form-label">Facebook</label>
+                <div class="input-group mb-3" id="facebook">
+                    <span class="input-group-text">Link</span>
+                    <input type="text" class="form-control" placeholder="https://example.com/users/"
+                        aria-label="link-facebook">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="Usuario" aria-label="username-facebook">
+                </div>
+            </div>
+
+            <div class="information-profile">
+                <h2>ACERCA DE MI</h2>
+                <label for="acerca-de-mi" class="form-label">Descripción</label>
+                <textarea class="form-control" rows="5" id="acerca-de-mi" name="text"></textarea>
+            </div>
+
+            <div class="information-education" id="tblUno">
+                <h2>INFORMACION EDUCATIVA</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Grado</label>
+                    </div>
+                    <div class="col">
+                        <label for="">Nombre de institucion</label>
+                    </div>
+                    <div class="col">
+                        <label for="">Año</label>
+                    </div>
+                    <div class="col">
+                        <label for=""></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary" type="button">OK</button>
+                        <button class="btn btn-danger" type="button">Cancel</button>
+                    </div>
+                 </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    </form>
+
+    </div>
+</body>
+
+</html>
